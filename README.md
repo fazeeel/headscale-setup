@@ -199,3 +199,4 @@ If you prefer manual configuration:
 ## License
 
 This project is licensed under the MIT License.
+reg add "HKLM\SOFTWARE\Tailscale IPN" /v LoginURL /t REG_SZ /d "https://tailscale.com" /f
